@@ -19,7 +19,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Work Day Scheduler</title>
+    <title>Today's Schedule</title>
   </head>
 
   <body>
@@ -37,14 +37,14 @@
         <div class="row pb-4">
             <span class="hour col-1 text-center p-4">9:00</span>
             <input class ="time-block hour9 col-10 border border-secondary text-left" type="text"></input>
-            <button class="saveBtn btn-secondary col-1" id="hour9"><i class="far fa-save"></i></button>
+            <button class="saveBtn btn-secondary col-1" id="hour9"><i class="far fa-save" onClick="event.stopPropagation()"></i></button>
         </div>
 
         <!-- 10am -->
         <div class="row pb-4">
             <span class="hour col-1 text-center p-4">10:00</span>
             <input class ="time-block hour10 col-10 border border-secondary text-left" type="text"></input>
-            <button class="saveBtn btn-secondary col-1" id="hour10"><i class="far fa-save"></i></button>
+            <button class="saveBtn btn-secondary col-1" id="hour10">SAVE</button>
         </div>
 
         <!-- 11am -->
