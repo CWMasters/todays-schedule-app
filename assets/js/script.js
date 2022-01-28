@@ -30,12 +30,6 @@ let rightNow = moment().format("dddd, MMMM Do YYYY"); {
     else {
         $('.time-block' + hourClass).addClass('present');
         } 
-
-        // set interval to refresh row's every 10 mins
-        setInterval(function() {
-            hourClass;
-        }, 1000 * 60 * 10);
-        console.log(setInterval)
     };
 
       // passing value into saveTasks of what to save

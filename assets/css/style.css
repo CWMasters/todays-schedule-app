@@ -69,17 +69,25 @@ body {
     border-bottom-right-radius: 15px; */
     background-color: black;
     color: white;
+    font-size: 10px;
   }
   
-  .saveBtn i {
+  .saveBtn:hover {
+    transition: all .5s ease-in-out; 
+    background-color: white;
+    color: black;
+    font-size: 20px;
+  }
+
+  /* .saveBtn i {
     font-size: 30px;
   }
 
-  .saveBtn i:hover { /* used */
+  .saveBtn i:hover { used
     font-size: 50px;
     transition: all .3s ease-in-out;
     color: lightseagreen;
-  }
+  } */
 
   #currentDay { /* used */
     padding-top: 30px;
