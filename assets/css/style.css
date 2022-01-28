@@ -4,7 +4,7 @@ body {
     line-height: 1;
   }
   
-  textarea{
+  textarea{ 
     background: transparent;
     border: none;
     resize: none;
@@ -27,7 +27,7 @@ body {
     white-space: pre-wrap;
   }
   
-  .time-block{ 
+  .time-block{ /*used*/
     text-align: center;
     /* border-radius: 15px; */
   }
@@ -44,39 +44,40 @@ body {
     border-top: 1px solid #000000;
     border-bottom: 1px solid #000000;
     border-left: 1px solid #000000;
-    background-color: #06AED5;
+    background-color: black;
     color: white;
   }
   
-  .past { /* set with moment */
+  .past { /* used */
     background-color: #d3d3d3;
-    color: white;
+    color: black;
   }
   
-  .present { /* set with moment */
-    background-color: #ff6961;
-    color: white;
+  .present { /* used */
+    background-color: rgb(207, 0, 0);
+    color: black;
   }
   
-  .future { /* set with moment */
-    background-color: #77dd77;
-    color: white;
+  .future { /* used */
+    background-color: #06AED5;
+    color: black;
   }
   
   .saveBtn { /* used */
     border-left: 1px solid black;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: #06AED5;
+    /* border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px; */
+    background-color: black;
     color: white;
   }
   
-  .saveBtn i:hover { /* in JS????? */
-    font-size: 20px;
+  .saveBtn i:hover { /* used */
+    font-size: 30px;
     transition: all .3s ease-in-out;
+    color: lightseagreen;
   }
 
-  #currentDay {
+  #currentDay { /* used */
     padding-top: 30px;
     color: #06AED5;
 
