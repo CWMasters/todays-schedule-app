@@ -18,4 +18,4 @@ https://cwmasters.github.io/todays-schedule-app/
 ![Screen Shot 2022-01-28 at 12 59 48 PM (2)](https://user-images.githubusercontent.com/95546410/151621869-c7640545-7cee-4fc1-a1b7-1e2408fff2ab.png)
 
 ## Contribution
-javaScript and jQuery by Chris Masters with some additions to HTML and minor CSS adjustments, everything else provided as starter code.# 
+javaScript and jQuery by Chris Masters with some additions to HTML and minor CSS adjustments, everything else provided as starter code.
