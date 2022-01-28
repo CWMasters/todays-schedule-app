@@ -1,0 +1,96 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+  }
+  
+  textarea{ 
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    /* border-left: 1px solid black; */
+    /* padding: 10px; */
+    width: 90%;
+    float: left;
+  }
+  
+  .jumbotron { /* used */
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+  }
+  
+  .description{
+    white-space: pre-wrap;
+  }
+  
+  .time-block{ /*used*/
+    text-align: center;
+    /* border-radius: 15px; */
+  }
+  
+  .row { /* used */
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid white;;
+  }
+  
+  .hour { /* used */
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    background-color: black;
+    color: white;
+  }
+  
+  .past { /* used */
+    background-color: #d3d3d3;
+    color: black;
+  }
+  
+  .present { /* used */
+    background-color: rgb(207, 0, 0);
+    color: black;
+  }
+  
+  .future { /* used */
+    background-color: #06AED5;
+    color: black;
+  }
+  
+  .saveBtn { /* used */
+    border-left: 1px solid black;
+    /* border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px; */
+    background-color: black;
+    color: white;
+    font-size: 10px;
+  }
+  
+  .saveBtn:hover {
+    transition: all .5s ease-in-out; 
+    background-color: white;
+    color: black;
+    font-size: 20px;
+  }
+
+  /* .saveBtn i {
+    font-size: 30px;
+  }
+
+  .saveBtn i:hover { used
+    font-size: 50px;
+    transition: all .3s ease-in-out;
+    color: lightseagreen;
+  } */
+
+  #currentDay { /* used */
+    padding-top: 30px;
+    color: #06AED5;
+
+  }
